@@ -10,5 +10,6 @@ export class MytableservService {
 
   public TableReports(){
     return this.http.get("https://random-data-api.com/api/name/random_name?size=10")
+    
   }
 }
