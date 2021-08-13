@@ -30,4 +30,5 @@ apiTimer: any
     let resp= this.service.TableReports();
     resp.subscribe(report=>this.dataSource.data=report as TableReports[])
   }
+
 }
